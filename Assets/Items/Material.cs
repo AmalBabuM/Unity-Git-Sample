@@ -4,7 +4,11 @@ using UnityEngine;
 
 public class Material : MonoBehaviour
 {
-    public float power = 50f;
+
+    public float fpower = 50f;
+
+    public float power = 20f;
+
     // Start is called before the first frame update
     void Start()
     {
