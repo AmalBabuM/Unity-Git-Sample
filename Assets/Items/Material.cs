@@ -9,6 +9,8 @@ public class Material : MonoBehaviour
 
     public float power = 20f;
 
+    public Rigidbody rb;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +20,10 @@ public class Material : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+       if (power < 20)
+        {
+            Debug.Log("Hi");
+        }
+            
     }
 }
